@@ -3,7 +3,7 @@ on: push
 jobs:
   qa:
     name: Check tests
-    runs-on: latest ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout on master
         uses: actions/checkout@v3
